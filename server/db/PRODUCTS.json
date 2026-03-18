@@ -1,0 +1,1974 @@
+[
+  {
+    "id": "P-0001",
+    "name": "Nova Bottle 01",
+    "description": "Nova Bottle 01 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0001/640/640",
+    "state": "ACTIVE",
+    "price": 120,
+    "originalPrice": 120,
+    "tags": [],
+    "specifications": {
+      "material": "304 Stainless Steel",
+      "size": "M",
+      "color": "Navy Blue",
+      "weight": "0.55 kg",
+      "origin": "Designed in Taiwan",
+      "warrantyMonths": 6,
+      "features": [
+        "Scratch-Resistant Coating",
+        "Low-Noise Operation",
+        "Water-Resistant"
+      ]
+    },
+    "details": [
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "Reinforced key areas improve stability and reliability.",
+      "Minimalist styling blends naturally into different spaces."
+    ],
+    "precautions": [
+      "Do not use strong acidic or alkaline cleaners.",
+      "Actual color may vary slightly depending on display settings.",
+      "Keep away from high heat and prolonged direct sunlight."
+    ],
+    "stock": 11
+  },
+  {
+    "id": "P-0002",
+    "name": "Aero Lamp 02",
+    "description": "Aero Lamp 02 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0002/640/640",
+    "state": "SOLD_OUT",
+    "price": 127,
+    "originalPrice": 137,
+    "tags": [
+      "FASHION"
+    ],
+    "discount": {
+      "amount": 10,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Tempered Glass",
+      "size": "L",
+      "color": "Navy Blue",
+      "weight": "0.75 kg",
+      "origin": "Built to EU Standards",
+      "warrantyMonths": 6,
+      "features": [
+        "Quick-Release Design",
+        "Washable Components",
+        "Scratch-Resistant Coating"
+      ]
+    },
+    "details": [
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "Built for everyday durability and long-term use.",
+      "An anti-stain surface treatment makes routine cleaning easier."
+    ],
+    "precautions": [
+      "Keep away from high heat and prolonged direct sunlight.",
+      "Store in a cool, dry place when not in use for long periods.",
+      "Do not use strong acidic or alkaline cleaners."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0003",
+    "name": "Luma Mat 03",
+    "description": "Luma Mat 03 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0003/640/640",
+    "state": "SOLD_OUT",
+    "price": 139,
+    "originalPrice": 154,
+    "tags": [
+      "HOME",
+      "SPORTS"
+    ],
+    "discount": {
+      "amount": 15,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "304 Stainless Steel",
+      "size": "L",
+      "color": "Matte Gray",
+      "weight": "1.12 kg",
+      "origin": "Designed in Taiwan",
+      "warrantyMonths": 18,
+      "features": [
+        "Low-Noise Operation",
+        "Washable Components",
+        "Quick-Release Design"
+      ]
+    },
+    "details": [
+      "Minimalist styling blends naturally into different spaces.",
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Reinforced key areas improve stability and reliability."
+    ],
+    "precautions": [
+      "Please clean before first use.",
+      "Keep away from high heat and prolonged direct sunlight.",
+      "Adult supervision is recommended when used by children."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0004",
+    "name": "Terra Speaker 04",
+    "description": "Terra Speaker 04 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0004/640/640",
+    "state": "ACTIVE",
+    "price": 171,
+    "originalPrice": 171,
+    "tags": [
+      "SPORTS",
+      "ELECTRONICS",
+      "FASHION"
+    ],
+    "specifications": {
+      "material": "Natural Rubber",
+      "size": "XL",
+      "color": "Navy Blue",
+      "weight": "0.94 kg",
+      "origin": "Designed in Korea",
+      "warrantyMonths": 12,
+      "features": [
+        "Low-Noise Operation",
+        "Water-Resistant",
+        "Energy-Saving Mode"
+      ]
+    },
+    "details": [
+      "Minimalist styling blends naturally into different spaces.",
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "Reinforced key areas improve stability and reliability."
+    ],
+    "precautions": [
+      "Keep away from high heat and prolonged direct sunlight.",
+      "Actual color may vary slightly depending on display settings.",
+      "Adult supervision is recommended when used by children."
+    ],
+    "stock": 5
+  },
+  {
+    "id": "P-0005",
+    "name": "Echo Backpack 05",
+    "description": "Echo Backpack 05 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0005/640/640",
+    "state": "SOLD_OUT",
+    "price": 163,
+    "originalPrice": 188,
+    "tags": [
+      "ELECTRONICS",
+      "FASHION",
+      "HOME",
+      "SPORTS"
+    ],
+    "discount": {
+      "amount": 25,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Polyester Fiber",
+      "size": "L",
+      "color": "Cream White",
+      "weight": "1.69 kg",
+      "origin": "Supervised in Japan",
+      "warrantyMonths": 12,
+      "features": [
+        "Scratch-Resistant Coating",
+        "Washable Components",
+        "Energy-Saving Mode"
+      ]
+    },
+    "details": [
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Minimalist styling blends naturally into different spaces.",
+      "Operation and tactile feedback are tuned for comfort and efficiency."
+    ],
+    "precautions": [
+      "Please clean before first use.",
+      "Do not use strong acidic or alkaline cleaners.",
+      "Store in a cool, dry place when not in use for long periods."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0006",
+    "name": "Pulse Keyboard 06",
+    "description": "Pulse Keyboard 06 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0006/640/640",
+    "state": "SOLD_OUT",
+    "price": 175,
+    "originalPrice": 205,
+    "tags": [],
+    "discount": {
+      "amount": 30,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Natural Rubber",
+      "size": "M",
+      "color": "Matte Gray",
+      "weight": "1.44 kg",
+      "origin": "Designed in Korea",
+      "warrantyMonths": 6,
+      "features": [
+        "Quick-Release Design",
+        "Washable Components",
+        "Scratch-Resistant Coating"
+      ]
+    },
+    "details": [
+      "Minimalist styling blends naturally into different spaces.",
+      "Reinforced key areas improve stability and reliability.",
+      "Built for everyday durability and long-term use."
+    ],
+    "precautions": [
+      "Store in a cool, dry place when not in use for long periods.",
+      "Actual color may vary slightly depending on display settings.",
+      "Please clean before first use."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0007",
+    "name": "Zen Mug 07",
+    "description": "Zen Mug 07 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0007/640/640",
+    "state": "ACTIVE",
+    "price": 222,
+    "originalPrice": 222,
+    "tags": [
+      "HOME"
+    ],
+    "specifications": {
+      "material": "Aluminum Alloy",
+      "size": "L",
+      "color": "Cream White",
+      "weight": "0.41 kg",
+      "origin": "Designed in Korea",
+      "warrantyMonths": 18,
+      "features": [
+        "Washable Components",
+        "Energy-Saving Mode",
+        "Quick-Release Design"
+      ]
+    },
+    "details": [
+      "Reinforced key areas improve stability and reliability.",
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Built for everyday durability and long-term use."
+    ],
+    "precautions": [
+      "Store in a cool, dry place when not in use for long periods.",
+      "Do not use strong acidic or alkaline cleaners.",
+      "Actual color may vary slightly depending on display settings."
+    ],
+    "stock": 27
+  },
+  {
+    "id": "P-0008",
+    "name": "Prime Headset 08",
+    "description": "Prime Headset 08 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0008/640/640",
+    "state": "SOLD_OUT",
+    "price": 199,
+    "originalPrice": 239,
+    "tags": [
+      "SPORTS",
+      "ELECTRONICS"
+    ],
+    "discount": {
+      "amount": 40,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Polyester Fiber",
+      "size": "M",
+      "color": "Cream White",
+      "weight": "1.72 kg",
+      "origin": "Designed in Taiwan",
+      "warrantyMonths": 18,
+      "features": [
+        "Washable Components",
+        "Scratch-Resistant Coating",
+        "Low-Noise Operation"
+      ]
+    },
+    "details": [
+      "Built for everyday durability and long-term use.",
+      "Minimalist styling blends naturally into different spaces.",
+      "An anti-stain surface treatment makes routine cleaning easier."
+    ],
+    "precautions": [
+      "Do not use strong acidic or alkaline cleaners.",
+      "Actual color may vary slightly depending on display settings.",
+      "Adult supervision is recommended when used by children."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0009",
+    "name": "Flex Watch 09",
+    "description": "Flex Watch 09 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0009/640/640",
+    "state": "SOLD_OUT",
+    "price": 211,
+    "originalPrice": 256,
+    "tags": [
+      "ELECTRONICS",
+      "FASHION",
+      "HOME"
+    ],
+    "discount": {
+      "amount": 45,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Tempered Glass",
+      "size": "L",
+      "color": "Obsidian Black",
+      "weight": "0.57 kg",
+      "origin": "Built to EU Standards",
+      "warrantyMonths": 6,
+      "features": [
+        "Low-Noise Operation",
+        "Washable Components",
+        "Energy-Saving Mode"
+      ]
+    },
+    "details": [
+      "Reinforced key areas improve stability and reliability.",
+      "Built for everyday durability and long-term use.",
+      "Minimalist styling blends naturally into different spaces."
+    ],
+    "precautions": [
+      "Adult supervision is recommended when used by children.",
+      "Keep away from high heat and prolonged direct sunlight.",
+      "Actual color may vary slightly depending on display settings."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0010",
+    "name": "Core Jacket 10",
+    "description": "Core Jacket 10 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0010/640/640",
+    "state": "ACTIVE",
+    "price": 273,
+    "originalPrice": 273,
+    "tags": [
+      "FASHION",
+      "HOME",
+      "SPORTS",
+      "ELECTRONICS"
+    ],
+    "specifications": {
+      "material": "Natural Rubber",
+      "size": "S",
+      "color": "Matte Gray",
+      "weight": "0.32 kg",
+      "origin": "Designed in Taiwan",
+      "warrantyMonths": 24,
+      "features": [
+        "Water-Resistant",
+        "Quick-Release Design",
+        "Low-Noise Operation"
+      ]
+    },
+    "details": [
+      "Built for everyday durability and long-term use.",
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "Reinforced key areas improve stability and reliability."
+    ],
+    "precautions": [
+      "Please clean before first use.",
+      "Actual color may vary slightly depending on display settings.",
+      "Keep away from high heat and prolonged direct sunlight."
+    ],
+    "stock": 9
+  },
+  {
+    "id": "P-0011",
+    "name": "Nova Bottle 11",
+    "description": "Nova Bottle 11 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0011/640/640",
+    "state": "SOLD_OUT",
+    "price": 280,
+    "originalPrice": 290,
+    "tags": [],
+    "discount": {
+      "amount": 10,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Natural Rubber",
+      "size": "M",
+      "color": "Navy Blue",
+      "weight": "1.25 kg",
+      "origin": "Built to EU Standards",
+      "warrantyMonths": 24,
+      "features": [
+        "Energy-Saving Mode",
+        "Water-Resistant",
+        "Scratch-Resistant Coating"
+      ]
+    },
+    "details": [
+      "Reinforced key areas improve stability and reliability.",
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Operation and tactile feedback are tuned for comfort and efficiency."
+    ],
+    "precautions": [
+      "Keep away from high heat and prolonged direct sunlight.",
+      "Actual color may vary slightly depending on display settings.",
+      "Do not use strong acidic or alkaline cleaners."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0012",
+    "name": "Aero Lamp 12",
+    "description": "Aero Lamp 12 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0012/640/640",
+    "state": "SOLD_OUT",
+    "price": 292,
+    "originalPrice": 307,
+    "tags": [
+      "SPORTS"
+    ],
+    "discount": {
+      "amount": 15,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "ABS Resin",
+      "size": "L",
+      "color": "Obsidian Black",
+      "weight": "0.44 kg",
+      "origin": "Built to EU Standards",
+      "warrantyMonths": 24,
+      "features": [
+        "Scratch-Resistant Coating",
+        "Washable Components",
+        "Water-Resistant"
+      ]
+    },
+    "details": [
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "Built for everyday durability and long-term use.",
+      "Reinforced key areas improve stability and reliability."
+    ],
+    "precautions": [
+      "Store in a cool, dry place when not in use for long periods.",
+      "Do not use strong acidic or alkaline cleaners.",
+      "Adult supervision is recommended when used by children."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0013",
+    "name": "Luma Mat 13",
+    "description": "Luma Mat 13 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0013/640/640",
+    "state": "ACTIVE",
+    "price": 324,
+    "originalPrice": 324,
+    "tags": [
+      "ELECTRONICS",
+      "FASHION"
+    ],
+    "specifications": {
+      "material": "Tempered Glass",
+      "size": "L",
+      "color": "Obsidian Black",
+      "weight": "1.53 kg",
+      "origin": "Supervised in Japan",
+      "warrantyMonths": 6,
+      "features": [
+        "Water-Resistant",
+        "Scratch-Resistant Coating",
+        "Low-Noise Operation"
+      ]
+    },
+    "details": [
+      "Built for everyday durability and long-term use.",
+      "Reinforced key areas improve stability and reliability.",
+      "An anti-stain surface treatment makes routine cleaning easier."
+    ],
+    "precautions": [
+      "Do not use strong acidic or alkaline cleaners.",
+      "Keep away from high heat and prolonged direct sunlight.",
+      "Store in a cool, dry place when not in use for long periods."
+    ],
+    "stock": 7
+  },
+  {
+    "id": "P-0014",
+    "name": "Terra Speaker 14",
+    "description": "Terra Speaker 14 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0014/640/640",
+    "state": "SOLD_OUT",
+    "price": 316,
+    "originalPrice": 341,
+    "tags": [
+      "FASHION",
+      "HOME",
+      "SPORTS"
+    ],
+    "discount": {
+      "amount": 25,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Polyester Fiber",
+      "size": "L",
+      "color": "Matte Gray",
+      "weight": "0.95 kg",
+      "origin": "Designed in Korea",
+      "warrantyMonths": 6,
+      "features": [
+        "Low-Noise Operation",
+        "Energy-Saving Mode",
+        "Quick-Release Design"
+      ]
+    },
+    "details": [
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "Reinforced key areas improve stability and reliability.",
+      "Built for everyday durability and long-term use."
+    ],
+    "precautions": [
+      "Store in a cool, dry place when not in use for long periods.",
+      "Keep away from high heat and prolonged direct sunlight.",
+      "Adult supervision is recommended when used by children."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0015",
+    "name": "Echo Backpack 15",
+    "description": "Echo Backpack 15 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0015/640/640",
+    "state": "ACTIVE",
+    "price": 328,
+    "originalPrice": 358,
+    "tags": [
+      "HOME",
+      "SPORTS",
+      "ELECTRONICS",
+      "FASHION"
+    ],
+    "discount": {
+      "amount": 30,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Natural Rubber",
+      "size": "M",
+      "color": "Navy Blue",
+      "weight": "0.98 kg",
+      "origin": "Supervised in Japan",
+      "warrantyMonths": 18,
+      "features": [
+        "Low-Noise Operation",
+        "Scratch-Resistant Coating",
+        "Quick-Release Design"
+      ]
+    },
+    "details": [
+      "Minimalist styling blends naturally into different spaces.",
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Built for everyday durability and long-term use."
+    ],
+    "precautions": [
+      "Do not use strong acidic or alkaline cleaners.",
+      "Adult supervision is recommended when used by children.",
+      "Please clean before first use."
+    ],
+    "stock": 28
+  },
+  {
+    "id": "P-0016",
+    "name": "Pulse Keyboard 16",
+    "description": "Pulse Keyboard 16 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0016/640/640",
+    "state": "ACTIVE",
+    "price": 375,
+    "originalPrice": 375,
+    "tags": [],
+    "specifications": {
+      "material": "Polyester Fiber",
+      "size": "S",
+      "color": "Matte Gray",
+      "weight": "0.60 kg",
+      "origin": "Designed in Korea",
+      "warrantyMonths": 18,
+      "features": [
+        "Scratch-Resistant Coating",
+        "Water-Resistant",
+        "Washable Components"
+      ]
+    },
+    "details": [
+      "Reinforced key areas improve stability and reliability.",
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Operation and tactile feedback are tuned for comfort and efficiency."
+    ],
+    "precautions": [
+      "Store in a cool, dry place when not in use for long periods.",
+      "Please clean before first use.",
+      "Keep away from high heat and prolonged direct sunlight."
+    ],
+    "stock": 27
+  },
+  {
+    "id": "P-0017",
+    "name": "Zen Mug 17",
+    "description": "Zen Mug 17 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0017/640/640",
+    "state": "SOLD_OUT",
+    "price": 352,
+    "originalPrice": 392,
+    "tags": [
+      "ELECTRONICS"
+    ],
+    "discount": {
+      "amount": 40,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Tempered Glass",
+      "size": "L",
+      "color": "Sandstone Beige",
+      "weight": "0.45 kg",
+      "origin": "Designed in Korea",
+      "warrantyMonths": 24,
+      "features": [
+        "Low-Noise Operation",
+        "Washable Components",
+        "Quick-Release Design"
+      ]
+    },
+    "details": [
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Built for everyday durability and long-term use."
+    ],
+    "precautions": [
+      "Adult supervision is recommended when used by children.",
+      "Store in a cool, dry place when not in use for long periods.",
+      "Do not use strong acidic or alkaline cleaners."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0018",
+    "name": "Prime Headset 18",
+    "description": "Prime Headset 18 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0018/640/640",
+    "state": "SOLD_OUT",
+    "price": 364,
+    "originalPrice": 409,
+    "tags": [
+      "FASHION",
+      "HOME"
+    ],
+    "discount": {
+      "amount": 45,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "ABS Resin",
+      "size": "M",
+      "color": "Forest Green",
+      "weight": "0.96 kg",
+      "origin": "Designed in Taiwan",
+      "warrantyMonths": 18,
+      "features": [
+        "Energy-Saving Mode",
+        "Water-Resistant",
+        "Low-Noise Operation"
+      ]
+    },
+    "details": [
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "Built for everyday durability and long-term use.",
+      "An anti-stain surface treatment makes routine cleaning easier."
+    ],
+    "precautions": [
+      "Actual color may vary slightly depending on display settings.",
+      "Keep away from high heat and prolonged direct sunlight.",
+      "Store in a cool, dry place when not in use for long periods."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0019",
+    "name": "Flex Watch 19",
+    "description": "Flex Watch 19 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0019/640/640",
+    "state": "ACTIVE",
+    "price": 426,
+    "originalPrice": 426,
+    "tags": [
+      "HOME",
+      "SPORTS",
+      "ELECTRONICS"
+    ],
+    "specifications": {
+      "material": "Aluminum Alloy",
+      "size": "M",
+      "color": "Navy Blue",
+      "weight": "1.17 kg",
+      "origin": "Built to EU Standards",
+      "warrantyMonths": 6,
+      "features": [
+        "Quick-Release Design",
+        "Water-Resistant",
+        "Washable Components"
+      ]
+    },
+    "details": [
+      "Built for everyday durability and long-term use.",
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Reinforced key areas improve stability and reliability."
+    ],
+    "precautions": [
+      "Store in a cool, dry place when not in use for long periods.",
+      "Actual color may vary slightly depending on display settings.",
+      "Please clean before first use."
+    ],
+    "stock": 5
+  },
+  {
+    "id": "P-0020",
+    "name": "Core Jacket 20",
+    "description": "Core Jacket 20 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0020/640/640",
+    "state": "SOLD_OUT",
+    "price": 433,
+    "originalPrice": 443,
+    "tags": [
+      "SPORTS",
+      "ELECTRONICS",
+      "FASHION",
+      "HOME"
+    ],
+    "discount": {
+      "amount": 10,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "304 Stainless Steel",
+      "size": "XL",
+      "color": "Cream White",
+      "weight": "0.32 kg",
+      "origin": "Designed in Taiwan",
+      "warrantyMonths": 12,
+      "features": [
+        "Water-Resistant",
+        "Energy-Saving Mode",
+        "Washable Components"
+      ]
+    },
+    "details": [
+      "Reinforced key areas improve stability and reliability.",
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "An anti-stain surface treatment makes routine cleaning easier."
+    ],
+    "precautions": [
+      "Do not use strong acidic or alkaline cleaners.",
+      "Actual color may vary slightly depending on display settings.",
+      "Please clean before first use."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0021",
+    "name": "Nova Bottle 21",
+    "description": "Nova Bottle 21 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0021/640/640",
+    "state": "ACTIVE",
+    "price": 445,
+    "originalPrice": 460,
+    "tags": [],
+    "discount": {
+      "amount": 15,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Polyester Fiber",
+      "size": "XL",
+      "color": "Obsidian Black",
+      "weight": "1.29 kg",
+      "origin": "Designed in Taiwan",
+      "warrantyMonths": 12,
+      "features": [
+        "Scratch-Resistant Coating",
+        "Quick-Release Design",
+        "Energy-Saving Mode"
+      ]
+    },
+    "details": [
+      "Reinforced key areas improve stability and reliability.",
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "Minimalist styling blends naturally into different spaces."
+    ],
+    "precautions": [
+      "Do not use strong acidic or alkaline cleaners.",
+      "Please clean before first use.",
+      "Keep away from high heat and prolonged direct sunlight."
+    ],
+    "stock": 17
+  },
+  {
+    "id": "P-0022",
+    "name": "Aero Lamp 22",
+    "description": "Aero Lamp 22 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0022/640/640",
+    "state": "ACTIVE",
+    "price": 477,
+    "originalPrice": 477,
+    "tags": [
+      "FASHION"
+    ],
+    "specifications": {
+      "material": "Polyester Fiber",
+      "size": "L",
+      "color": "Obsidian Black",
+      "weight": "1.25 kg",
+      "origin": "Designed in Taiwan",
+      "warrantyMonths": 6,
+      "features": [
+        "Washable Components",
+        "Scratch-Resistant Coating",
+        "Energy-Saving Mode"
+      ]
+    },
+    "details": [
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "Reinforced key areas improve stability and reliability.",
+      "Minimalist styling blends naturally into different spaces."
+    ],
+    "precautions": [
+      "Adult supervision is recommended when used by children.",
+      "Store in a cool, dry place when not in use for long periods.",
+      "Keep away from high heat and prolonged direct sunlight."
+    ],
+    "stock": 26
+  },
+  {
+    "id": "P-0023",
+    "name": "Luma Mat 23",
+    "description": "Luma Mat 23 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0023/640/640",
+    "state": "SOLD_OUT",
+    "price": 469,
+    "originalPrice": 494,
+    "tags": [
+      "HOME",
+      "SPORTS"
+    ],
+    "discount": {
+      "amount": 25,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Natural Rubber",
+      "size": "L",
+      "color": "Navy Blue",
+      "weight": "0.42 kg",
+      "origin": "Designed in Korea",
+      "warrantyMonths": 24,
+      "features": [
+        "Water-Resistant",
+        "Quick-Release Design",
+        "Low-Noise Operation"
+      ]
+    },
+    "details": [
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "Built for everyday durability and long-term use.",
+      "Minimalist styling blends naturally into different spaces."
+    ],
+    "precautions": [
+      "Do not use strong acidic or alkaline cleaners.",
+      "Actual color may vary slightly depending on display settings.",
+      "Keep away from high heat and prolonged direct sunlight."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0024",
+    "name": "Terra Speaker 24",
+    "description": "Terra Speaker 24 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0024/640/640",
+    "state": "ACTIVE",
+    "price": 481,
+    "originalPrice": 511,
+    "tags": [
+      "SPORTS",
+      "ELECTRONICS",
+      "FASHION"
+    ],
+    "discount": {
+      "amount": 30,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Aluminum Alloy",
+      "size": "XL",
+      "color": "Navy Blue",
+      "weight": "0.35 kg",
+      "origin": "Designed in Korea",
+      "warrantyMonths": 18,
+      "features": [
+        "Washable Components",
+        "Scratch-Resistant Coating",
+        "Quick-Release Design"
+      ]
+    },
+    "details": [
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Minimalist styling blends naturally into different spaces.",
+      "Built for everyday durability and long-term use."
+    ],
+    "precautions": [
+      "Do not use strong acidic or alkaline cleaners.",
+      "Actual color may vary slightly depending on display settings.",
+      "Store in a cool, dry place when not in use for long periods."
+    ],
+    "stock": 13
+  },
+  {
+    "id": "P-0025",
+    "name": "Echo Backpack 25",
+    "description": "Echo Backpack 25 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0025/640/640",
+    "state": "ACTIVE",
+    "price": 528,
+    "originalPrice": 528,
+    "tags": [
+      "ELECTRONICS",
+      "FASHION",
+      "HOME",
+      "SPORTS"
+    ],
+    "specifications": {
+      "material": "304 Stainless Steel",
+      "size": "L",
+      "color": "Navy Blue",
+      "weight": "0.88 kg",
+      "origin": "Built to EU Standards",
+      "warrantyMonths": 18,
+      "features": [
+        "Washable Components",
+        "Energy-Saving Mode",
+        "Water-Resistant"
+      ]
+    },
+    "details": [
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Minimalist styling blends naturally into different spaces.",
+      "Reinforced key areas improve stability and reliability."
+    ],
+    "precautions": [
+      "Do not use strong acidic or alkaline cleaners.",
+      "Keep away from high heat and prolonged direct sunlight.",
+      "Please clean before first use."
+    ],
+    "stock": 5
+  },
+  {
+    "id": "P-0026",
+    "name": "Pulse Keyboard 26",
+    "description": "Pulse Keyboard 26 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0026/640/640",
+    "state": "SOLD_OUT",
+    "price": 505,
+    "originalPrice": 545,
+    "tags": [],
+    "discount": {
+      "amount": 40,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Natural Rubber",
+      "size": "S",
+      "color": "Sandstone Beige",
+      "weight": "0.35 kg",
+      "origin": "Designed in Taiwan",
+      "warrantyMonths": 18,
+      "features": [
+        "Energy-Saving Mode",
+        "Low-Noise Operation",
+        "Water-Resistant"
+      ]
+    },
+    "details": [
+      "Built for everyday durability and long-term use.",
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "Minimalist styling blends naturally into different spaces."
+    ],
+    "precautions": [
+      "Keep away from high heat and prolonged direct sunlight.",
+      "Actual color may vary slightly depending on display settings.",
+      "Store in a cool, dry place when not in use for long periods."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0027",
+    "name": "Zen Mug 27",
+    "description": "Zen Mug 27 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0027/640/640",
+    "state": "ACTIVE",
+    "price": 517,
+    "originalPrice": 562,
+    "tags": [
+      "HOME"
+    ],
+    "discount": {
+      "amount": 45,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "ABS Resin",
+      "size": "XL",
+      "color": "Forest Green",
+      "weight": "1.06 kg",
+      "origin": "Designed in Taiwan",
+      "warrantyMonths": 18,
+      "features": [
+        "Washable Components",
+        "Energy-Saving Mode",
+        "Quick-Release Design"
+      ]
+    },
+    "details": [
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "Built for everyday durability and long-term use."
+    ],
+    "precautions": [
+      "Keep away from high heat and prolonged direct sunlight.",
+      "Do not use strong acidic or alkaline cleaners.",
+      "Store in a cool, dry place when not in use for long periods."
+    ],
+    "stock": 27
+  },
+  {
+    "id": "P-0028",
+    "name": "Prime Headset 28",
+    "description": "Prime Headset 28 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0028/640/640",
+    "state": "ACTIVE",
+    "price": 579,
+    "originalPrice": 579,
+    "tags": [
+      "SPORTS",
+      "ELECTRONICS"
+    ],
+    "specifications": {
+      "material": "Natural Rubber",
+      "size": "L",
+      "color": "Matte Gray",
+      "weight": "0.90 kg",
+      "origin": "Designed in Taiwan",
+      "warrantyMonths": 18,
+      "features": [
+        "Energy-Saving Mode",
+        "Water-Resistant",
+        "Scratch-Resistant Coating"
+      ]
+    },
+    "details": [
+      "Reinforced key areas improve stability and reliability.",
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "Built for everyday durability and long-term use."
+    ],
+    "precautions": [
+      "Do not use strong acidic or alkaline cleaners.",
+      "Please clean before first use.",
+      "Store in a cool, dry place when not in use for long periods."
+    ],
+    "stock": 6
+  },
+  {
+    "id": "P-0029",
+    "name": "Flex Watch 29",
+    "description": "Flex Watch 29 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0029/640/640",
+    "state": "SOLD_OUT",
+    "price": 586,
+    "originalPrice": 596,
+    "tags": [
+      "ELECTRONICS",
+      "FASHION",
+      "HOME"
+    ],
+    "discount": {
+      "amount": 10,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "304 Stainless Steel",
+      "size": "S",
+      "color": "Obsidian Black",
+      "weight": "1.82 kg",
+      "origin": "Built to EU Standards",
+      "warrantyMonths": 6,
+      "features": [
+        "Quick-Release Design",
+        "Energy-Saving Mode",
+        "Water-Resistant"
+      ]
+    },
+    "details": [
+      "Built for everyday durability and long-term use.",
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Operation and tactile feedback are tuned for comfort and efficiency."
+    ],
+    "precautions": [
+      "Store in a cool, dry place when not in use for long periods.",
+      "Adult supervision is recommended when used by children.",
+      "Do not use strong acidic or alkaline cleaners."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0030",
+    "name": "Core Jacket 30",
+    "description": "Core Jacket 30 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0030/640/640",
+    "state": "ACTIVE",
+    "price": 598,
+    "originalPrice": 613,
+    "tags": [
+      "FASHION",
+      "HOME",
+      "SPORTS",
+      "ELECTRONICS"
+    ],
+    "discount": {
+      "amount": 15,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "304 Stainless Steel",
+      "size": "M",
+      "color": "Forest Green",
+      "weight": "0.73 kg",
+      "origin": "Supervised in Japan",
+      "warrantyMonths": 24,
+      "features": [
+        "Water-Resistant",
+        "Energy-Saving Mode",
+        "Quick-Release Design"
+      ]
+    },
+    "details": [
+      "Built for everyday durability and long-term use.",
+      "Minimalist styling blends naturally into different spaces.",
+      "Reinforced key areas improve stability and reliability."
+    ],
+    "precautions": [
+      "Do not use strong acidic or alkaline cleaners.",
+      "Keep away from high heat and prolonged direct sunlight.",
+      "Store in a cool, dry place when not in use for long periods."
+    ],
+    "stock": 5
+  },
+  {
+    "id": "P-0031",
+    "name": "Nova Bottle 31",
+    "description": "Nova Bottle 31 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0031/640/640",
+    "state": "ACTIVE",
+    "price": 630,
+    "originalPrice": 630,
+    "tags": [],
+    "specifications": {
+      "material": "Aluminum Alloy",
+      "size": "S",
+      "color": "Matte Gray",
+      "weight": "1.43 kg",
+      "origin": "Supervised in Japan",
+      "warrantyMonths": 6,
+      "features": [
+        "Washable Components",
+        "Quick-Release Design",
+        "Low-Noise Operation"
+      ]
+    },
+    "details": [
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "Minimalist styling blends naturally into different spaces.",
+      "An anti-stain surface treatment makes routine cleaning easier."
+    ],
+    "precautions": [
+      "Do not use strong acidic or alkaline cleaners.",
+      "Actual color may vary slightly depending on display settings.",
+      "Please clean before first use."
+    ],
+    "stock": 26
+  },
+  {
+    "id": "P-0032",
+    "name": "Aero Lamp 32",
+    "description": "Aero Lamp 32 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0032/640/640",
+    "state": "SOLD_OUT",
+    "price": 622,
+    "originalPrice": 647,
+    "tags": [
+      "SPORTS"
+    ],
+    "discount": {
+      "amount": 25,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Polyester Fiber",
+      "size": "XL",
+      "color": "Cream White",
+      "weight": "1.17 kg",
+      "origin": "Designed in Taiwan",
+      "warrantyMonths": 24,
+      "features": [
+        "Washable Components",
+        "Energy-Saving Mode",
+        "Scratch-Resistant Coating"
+      ]
+    },
+    "details": [
+      "Built for everyday durability and long-term use.",
+      "Minimalist styling blends naturally into different spaces.",
+      "An anti-stain surface treatment makes routine cleaning easier."
+    ],
+    "precautions": [
+      "Please clean before first use.",
+      "Adult supervision is recommended when used by children.",
+      "Store in a cool, dry place when not in use for long periods."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0033",
+    "name": "Luma Mat 33",
+    "description": "Luma Mat 33 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0033/640/640",
+    "state": "SOLD_OUT",
+    "price": 634,
+    "originalPrice": 664,
+    "tags": [
+      "ELECTRONICS",
+      "FASHION"
+    ],
+    "discount": {
+      "amount": 30,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Polyester Fiber",
+      "size": "XL",
+      "color": "Matte Gray",
+      "weight": "1.21 kg",
+      "origin": "Designed in Korea",
+      "warrantyMonths": 24,
+      "features": [
+        "Washable Components",
+        "Scratch-Resistant Coating",
+        "Water-Resistant"
+      ]
+    },
+    "details": [
+      "Built for everyday durability and long-term use.",
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "Reinforced key areas improve stability and reliability."
+    ],
+    "precautions": [
+      "Do not use strong acidic or alkaline cleaners.",
+      "Adult supervision is recommended when used by children.",
+      "Keep away from high heat and prolonged direct sunlight."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0034",
+    "name": "Terra Speaker 34",
+    "description": "Terra Speaker 34 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0034/640/640",
+    "state": "ACTIVE",
+    "price": 681,
+    "originalPrice": 681,
+    "tags": [
+      "FASHION",
+      "HOME",
+      "SPORTS"
+    ],
+    "specifications": {
+      "material": "Natural Rubber",
+      "size": "L",
+      "color": "Navy Blue",
+      "weight": "0.83 kg",
+      "origin": "Designed in Korea",
+      "warrantyMonths": 12,
+      "features": [
+        "Scratch-Resistant Coating",
+        "Low-Noise Operation",
+        "Quick-Release Design"
+      ]
+    },
+    "details": [
+      "Built for everyday durability and long-term use.",
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "Reinforced key areas improve stability and reliability."
+    ],
+    "precautions": [
+      "Please clean before first use.",
+      "Actual color may vary slightly depending on display settings.",
+      "Adult supervision is recommended when used by children."
+    ],
+    "stock": 24
+  },
+  {
+    "id": "P-0035",
+    "name": "Echo Backpack 35",
+    "description": "Echo Backpack 35 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0035/640/640",
+    "state": "SOLD_OUT",
+    "price": 658,
+    "originalPrice": 698,
+    "tags": [
+      "HOME",
+      "SPORTS",
+      "ELECTRONICS",
+      "FASHION"
+    ],
+    "discount": {
+      "amount": 40,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Aluminum Alloy",
+      "size": "XL",
+      "color": "Cream White",
+      "weight": "1.06 kg",
+      "origin": "Designed in Taiwan",
+      "warrantyMonths": 6,
+      "features": [
+        "Energy-Saving Mode",
+        "Water-Resistant",
+        "Low-Noise Operation"
+      ]
+    },
+    "details": [
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Minimalist styling blends naturally into different spaces.",
+      "Operation and tactile feedback are tuned for comfort and efficiency."
+    ],
+    "precautions": [
+      "Please clean before first use.",
+      "Store in a cool, dry place when not in use for long periods.",
+      "Keep away from high heat and prolonged direct sunlight."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0036",
+    "name": "Pulse Keyboard 36",
+    "description": "Pulse Keyboard 36 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0036/640/640",
+    "state": "ACTIVE",
+    "price": 670,
+    "originalPrice": 715,
+    "tags": [],
+    "discount": {
+      "amount": 45,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "ABS Resin",
+      "size": "M",
+      "color": "Matte Gray",
+      "weight": "0.58 kg",
+      "origin": "Supervised in Japan",
+      "warrantyMonths": 18,
+      "features": [
+        "Washable Components",
+        "Quick-Release Design",
+        "Scratch-Resistant Coating"
+      ]
+    },
+    "details": [
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "Built for everyday durability and long-term use.",
+      "An anti-stain surface treatment makes routine cleaning easier."
+    ],
+    "precautions": [
+      "Actual color may vary slightly depending on display settings.",
+      "Please clean before first use.",
+      "Store in a cool, dry place when not in use for long periods."
+    ],
+    "stock": 15
+  },
+  {
+    "id": "P-0037",
+    "name": "Zen Mug 37",
+    "description": "Zen Mug 37 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0037/640/640",
+    "state": "ACTIVE",
+    "price": 732,
+    "originalPrice": 732,
+    "tags": [
+      "ELECTRONICS"
+    ],
+    "specifications": {
+      "material": "Aluminum Alloy",
+      "size": "XL",
+      "color": "Matte Gray",
+      "weight": "0.91 kg",
+      "origin": "Designed in Korea",
+      "warrantyMonths": 12,
+      "features": [
+        "Washable Components",
+        "Energy-Saving Mode",
+        "Quick-Release Design"
+      ]
+    },
+    "details": [
+      "Minimalist styling blends naturally into different spaces.",
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "An anti-stain surface treatment makes routine cleaning easier."
+    ],
+    "precautions": [
+      "Please clean before first use.",
+      "Actual color may vary slightly depending on display settings.",
+      "Keep away from high heat and prolonged direct sunlight."
+    ],
+    "stock": 11
+  },
+  {
+    "id": "P-0038",
+    "name": "Prime Headset 38",
+    "description": "Prime Headset 38 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0038/640/640",
+    "state": "SOLD_OUT",
+    "price": 739,
+    "originalPrice": 749,
+    "tags": [
+      "FASHION",
+      "HOME"
+    ],
+    "discount": {
+      "amount": 10,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Tempered Glass",
+      "size": "M",
+      "color": "Obsidian Black",
+      "weight": "1.62 kg",
+      "origin": "Designed in Taiwan",
+      "warrantyMonths": 6,
+      "features": [
+        "Low-Noise Operation",
+        "Water-Resistant",
+        "Scratch-Resistant Coating"
+      ]
+    },
+    "details": [
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Minimalist styling blends naturally into different spaces.",
+      "Built for everyday durability and long-term use."
+    ],
+    "precautions": [
+      "Adult supervision is recommended when used by children.",
+      "Keep away from high heat and prolonged direct sunlight.",
+      "Store in a cool, dry place when not in use for long periods."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0039",
+    "name": "Flex Watch 39",
+    "description": "Flex Watch 39 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0039/640/640",
+    "state": "SOLD_OUT",
+    "price": 751,
+    "originalPrice": 766,
+    "tags": [
+      "HOME",
+      "SPORTS",
+      "ELECTRONICS"
+    ],
+    "discount": {
+      "amount": 15,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Tempered Glass",
+      "size": "M",
+      "color": "Cream White",
+      "weight": "1.67 kg",
+      "origin": "Designed in Korea",
+      "warrantyMonths": 24,
+      "features": [
+        "Low-Noise Operation",
+        "Scratch-Resistant Coating",
+        "Washable Components"
+      ]
+    },
+    "details": [
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Reinforced key areas improve stability and reliability."
+    ],
+    "precautions": [
+      "Adult supervision is recommended when used by children.",
+      "Keep away from high heat and prolonged direct sunlight.",
+      "Store in a cool, dry place when not in use for long periods."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0040",
+    "name": "Core Jacket 40",
+    "description": "Core Jacket 40 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0040/640/640",
+    "state": "ACTIVE",
+    "price": 783,
+    "originalPrice": 783,
+    "tags": [
+      "SPORTS",
+      "ELECTRONICS",
+      "FASHION",
+      "HOME"
+    ],
+    "specifications": {
+      "material": "Polyester Fiber",
+      "size": "M",
+      "color": "Sandstone Beige",
+      "weight": "0.62 kg",
+      "origin": "Supervised in Japan",
+      "warrantyMonths": 6,
+      "features": [
+        "Low-Noise Operation",
+        "Washable Components",
+        "Scratch-Resistant Coating"
+      ]
+    },
+    "details": [
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Reinforced key areas improve stability and reliability.",
+      "Operation and tactile feedback are tuned for comfort and efficiency."
+    ],
+    "precautions": [
+      "Do not use strong acidic or alkaline cleaners.",
+      "Please clean before first use.",
+      "Store in a cool, dry place when not in use for long periods."
+    ],
+    "stock": 20
+  },
+  {
+    "id": "P-0041",
+    "name": "Nova Bottle 41",
+    "description": "Nova Bottle 41 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0041/640/640",
+    "state": "SOLD_OUT",
+    "price": 775,
+    "originalPrice": 800,
+    "tags": [],
+    "discount": {
+      "amount": 25,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Polyester Fiber",
+      "size": "M",
+      "color": "Sandstone Beige",
+      "weight": "0.95 kg",
+      "origin": "Supervised in Japan",
+      "warrantyMonths": 24,
+      "features": [
+        "Quick-Release Design",
+        "Water-Resistant",
+        "Scratch-Resistant Coating"
+      ]
+    },
+    "details": [
+      "Reinforced key areas improve stability and reliability.",
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "Built for everyday durability and long-term use."
+    ],
+    "precautions": [
+      "Please clean before first use.",
+      "Keep away from high heat and prolonged direct sunlight.",
+      "Store in a cool, dry place when not in use for long periods."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0042",
+    "name": "Aero Lamp 42",
+    "description": "Aero Lamp 42 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0042/640/640",
+    "state": "ACTIVE",
+    "price": 787,
+    "originalPrice": 817,
+    "tags": [
+      "FASHION"
+    ],
+    "discount": {
+      "amount": 30,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "304 Stainless Steel",
+      "size": "XL",
+      "color": "Cream White",
+      "weight": "1.59 kg",
+      "origin": "Designed in Taiwan",
+      "warrantyMonths": 24,
+      "features": [
+        "Low-Noise Operation",
+        "Scratch-Resistant Coating",
+        "Water-Resistant"
+      ]
+    },
+    "details": [
+      "Built for everyday durability and long-term use.",
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "An anti-stain surface treatment makes routine cleaning easier."
+    ],
+    "precautions": [
+      "Please clean before first use.",
+      "Store in a cool, dry place when not in use for long periods.",
+      "Adult supervision is recommended when used by children."
+    ],
+    "stock": 24
+  },
+  {
+    "id": "P-0043",
+    "name": "Luma Mat 43",
+    "description": "Luma Mat 43 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0043/640/640",
+    "state": "ACTIVE",
+    "price": 834,
+    "originalPrice": 834,
+    "tags": [
+      "HOME",
+      "SPORTS"
+    ],
+    "specifications": {
+      "material": "Aluminum Alloy",
+      "size": "M",
+      "color": "Obsidian Black",
+      "weight": "0.53 kg",
+      "origin": "Built to EU Standards",
+      "warrantyMonths": 6,
+      "features": [
+        "Energy-Saving Mode",
+        "Washable Components",
+        "Quick-Release Design"
+      ]
+    },
+    "details": [
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Built for everyday durability and long-term use."
+    ],
+    "precautions": [
+      "Keep away from high heat and prolonged direct sunlight.",
+      "Adult supervision is recommended when used by children.",
+      "Please clean before first use."
+    ],
+    "stock": 24
+  },
+  {
+    "id": "P-0044",
+    "name": "Terra Speaker 44",
+    "description": "Terra Speaker 44 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0044/640/640",
+    "state": "SOLD_OUT",
+    "price": 811,
+    "originalPrice": 851,
+    "tags": [
+      "SPORTS",
+      "ELECTRONICS",
+      "FASHION"
+    ],
+    "discount": {
+      "amount": 40,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Aluminum Alloy",
+      "size": "S",
+      "color": "Matte Gray",
+      "weight": "1.96 kg",
+      "origin": "Designed in Taiwan",
+      "warrantyMonths": 12,
+      "features": [
+        "Energy-Saving Mode",
+        "Washable Components",
+        "Quick-Release Design"
+      ]
+    },
+    "details": [
+      "Reinforced key areas improve stability and reliability.",
+      "Minimalist styling blends naturally into different spaces.",
+      "An anti-stain surface treatment makes routine cleaning easier."
+    ],
+    "precautions": [
+      "Keep away from high heat and prolonged direct sunlight.",
+      "Adult supervision is recommended when used by children.",
+      "Actual color may vary slightly depending on display settings."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0045",
+    "name": "Echo Backpack 45",
+    "description": "Echo Backpack 45 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0045/640/640",
+    "state": "SOLD_OUT",
+    "price": 823,
+    "originalPrice": 868,
+    "tags": [
+      "ELECTRONICS",
+      "FASHION",
+      "HOME",
+      "SPORTS"
+    ],
+    "discount": {
+      "amount": 45,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Aluminum Alloy",
+      "size": "L",
+      "color": "Forest Green",
+      "weight": "0.44 kg",
+      "origin": "Designed in Korea",
+      "warrantyMonths": 12,
+      "features": [
+        "Low-Noise Operation",
+        "Water-Resistant",
+        "Energy-Saving Mode"
+      ]
+    },
+    "details": [
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Built for everyday durability and long-term use.",
+      "Reinforced key areas improve stability and reliability."
+    ],
+    "precautions": [
+      "Adult supervision is recommended when used by children.",
+      "Actual color may vary slightly depending on display settings.",
+      "Please clean before first use."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0046",
+    "name": "Pulse Keyboard 46",
+    "description": "Pulse Keyboard 46 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0046/640/640",
+    "state": "ACTIVE",
+    "price": 885,
+    "originalPrice": 885,
+    "tags": [],
+    "specifications": {
+      "material": "Natural Rubber",
+      "size": "M",
+      "color": "Sandstone Beige",
+      "weight": "0.94 kg",
+      "origin": "Supervised in Japan",
+      "warrantyMonths": 6,
+      "features": [
+        "Washable Components",
+        "Quick-Release Design",
+        "Water-Resistant"
+      ]
+    },
+    "details": [
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "Built for everyday durability and long-term use."
+    ],
+    "precautions": [
+      "Keep away from high heat and prolonged direct sunlight.",
+      "Do not use strong acidic or alkaline cleaners.",
+      "Please clean before first use."
+    ],
+    "stock": 22
+  },
+  {
+    "id": "P-0047",
+    "name": "Zen Mug 47",
+    "description": "Zen Mug 47 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0047/640/640",
+    "state": "SOLD_OUT",
+    "price": 892,
+    "originalPrice": 902,
+    "tags": [
+      "HOME"
+    ],
+    "discount": {
+      "amount": 10,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "Natural Rubber",
+      "size": "L",
+      "color": "Obsidian Black",
+      "weight": "0.35 kg",
+      "origin": "Designed in Taiwan",
+      "warrantyMonths": 12,
+      "features": [
+        "Energy-Saving Mode",
+        "Scratch-Resistant Coating",
+        "Water-Resistant"
+      ]
+    },
+    "details": [
+      "Reinforced key areas improve stability and reliability.",
+      "Built for everyday durability and long-term use.",
+      "Minimalist styling blends naturally into different spaces."
+    ],
+    "precautions": [
+      "Do not use strong acidic or alkaline cleaners.",
+      "Adult supervision is recommended when used by children.",
+      "Keep away from high heat and prolonged direct sunlight."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0048",
+    "name": "Prime Headset 48",
+    "description": "Prime Headset 48 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0048/640/640",
+    "state": "SOLD_OUT",
+    "price": 904,
+    "originalPrice": 919,
+    "tags": [
+      "SPORTS",
+      "ELECTRONICS"
+    ],
+    "discount": {
+      "amount": 15,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "ABS Resin",
+      "size": "XL",
+      "color": "Matte Gray",
+      "weight": "0.73 kg",
+      "origin": "Built to EU Standards",
+      "warrantyMonths": 12,
+      "features": [
+        "Washable Components",
+        "Water-Resistant",
+        "Quick-Release Design"
+      ]
+    },
+    "details": [
+      "Built for everyday durability and long-term use.",
+      "Minimalist styling blends naturally into different spaces.",
+      "An anti-stain surface treatment makes routine cleaning easier."
+    ],
+    "precautions": [
+      "Actual color may vary slightly depending on display settings.",
+      "Keep away from high heat and prolonged direct sunlight.",
+      "Store in a cool, dry place when not in use for long periods."
+    ],
+    "stock": 0
+  },
+  {
+    "id": "P-0049",
+    "name": "Flex Watch 49",
+    "description": "Flex Watch 49 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0049/640/640",
+    "state": "ACTIVE",
+    "price": 936,
+    "originalPrice": 936,
+    "tags": [
+      "ELECTRONICS",
+      "FASHION",
+      "HOME"
+    ],
+    "specifications": {
+      "material": "Natural Rubber",
+      "size": "XL",
+      "color": "Matte Gray",
+      "weight": "0.42 kg",
+      "origin": "Built to EU Standards",
+      "warrantyMonths": 12,
+      "features": [
+        "Energy-Saving Mode",
+        "Quick-Release Design",
+        "Scratch-Resistant Coating"
+      ]
+    },
+    "details": [
+      "Built for everyday durability and long-term use.",
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Reinforced key areas improve stability and reliability."
+    ],
+    "precautions": [
+      "Adult supervision is recommended when used by children.",
+      "Please clean before first use.",
+      "Do not use strong acidic or alkaline cleaners."
+    ],
+    "stock": 17
+  },
+  {
+    "id": "P-0050",
+    "name": "Core Jacket 50",
+    "description": "Core Jacket 50 is designed for daily use with durable materials, easy cleaning, and stable performance. It balances style and function, making it suitable for home, work, and travel.",
+    "image": "https://picsum.photos/seed/P-0050/640/640",
+    "state": "SOLD_OUT",
+    "price": 928,
+    "originalPrice": 953,
+    "tags": [
+      "FASHION",
+      "HOME",
+      "SPORTS",
+      "ELECTRONICS"
+    ],
+    "discount": {
+      "amount": 25,
+      "type": "FIXED"
+    },
+    "specifications": {
+      "material": "304 Stainless Steel",
+      "size": "L",
+      "color": "Sandstone Beige",
+      "weight": "0.85 kg",
+      "origin": "Designed in Taiwan",
+      "warrantyMonths": 24,
+      "features": [
+        "Washable Components",
+        "Energy-Saving Mode",
+        "Quick-Release Design"
+      ]
+    },
+    "details": [
+      "An anti-stain surface treatment makes routine cleaning easier.",
+      "Operation and tactile feedback are tuned for comfort and efficiency.",
+      "Minimalist styling blends naturally into different spaces."
+    ],
+    "precautions": [
+      "Adult supervision is recommended when used by children.",
+      "Keep away from high heat and prolonged direct sunlight.",
+      "Please clean before first use."
+    ],
+    "stock": 0
+  }
+]
