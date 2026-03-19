@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react'
 import ErrorFallback from '@/components/common/ErrorFallback'
-import { logError } from '@/shared/logger'
+import { logError } from '@/lib/logger'
 
 type GlobalErrorPageProps = {
   error: Error & { digest?: string }

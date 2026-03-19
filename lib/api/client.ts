@@ -1,6 +1,6 @@
 import axios, { type AxiosRequestConfig, type InternalAxiosRequestConfig } from 'axios'
 import { getSiteUrl } from '@/shared/utils/domain'
-import { logApiError } from '@/shared/logger'
+import { logApiError } from '@/lib/logger'
 import { abortManager, type AbortManager } from './abort'
 import { ApiError, normalizeError, type ErrorType, type NormalizedError } from './error'
 
