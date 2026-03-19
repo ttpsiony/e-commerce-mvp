@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-這是一個基本的 no session 狀態的電商 MVP 專案，主要有首頁、商品頁、商品詳細頁、購物車、購物頁，進行了專案規劃，策略選擇，以及流程 E2E 基本測試
+這是一個基本的 no session 狀態的電商 MVP 專案，主要有首頁、商品列表、商品詳細、購物車、簡易購物，進行了專案規劃，策略選擇，以及流程 E2E 基本測試
 
 This is a basic e-commerce MVP project without session state. It includes a homepage, product listing page, product detail page, shopping cart, and checkout page, along with project planning, strategy selection, and basic end-to-end flow testing.
 
@@ -49,8 +49,8 @@ This is a basic e-commerce MVP project without session state. It includes a home
 
 ## Rendering strategy
 
-1. **首頁 SSR**，透過 api route 何必 request，以及部分 below-the-fold lazy loading。輪播首圖 prefetch，透過點擊上下一步箭頭，再去載入需要的圖片。
-2. **商品列表頁 SSR**，load more 的方式載入商品，使用 skeleton。然後首張圖片 fetchPriority='high' (LCP問題)。移動到商品卡片時，預載商品詳細頁的資話。
+1. **首頁 SSR/hybrid**，透過合併 request，以及部分 below-the-fold lazy loading。輪播首圖 prefetch，透過點擊上下一步箭頭，再去載入需要的圖片。
+2. **商品列表頁 SSR/hybrid**，load more 的方式載入商品，使用 skeleton。然後首張圖片 fetchPriority='high' (LCP問題)。移動到商品卡片時，預載商品詳細頁的資源。
 3. **商品詳細頁 ISR**，資料變動較少，產生快取頁面，透過 revalidate 可更新快取。必要時，商品價格與庫存，可以在CSR做更新。
 4. **購物車、Checkout CSR等**，不需要被索引，表單元件、localStorage 在 client 載入。
 
