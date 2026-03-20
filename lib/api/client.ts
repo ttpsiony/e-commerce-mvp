@@ -56,6 +56,26 @@ function createApiClient(baseURL: string | undefined = defaultBaseUrl): ApiClien
     timeout: 10000
   })
 
+  axiosInstance.interceptors.request.use((config: InternalAxiosRequestConfig) => {
+    const { abortKey } = config as RequestConfigWithAbort
+    if (!abortKey) return config
+
+    const controller = abortManager.set(abortKey)
+    config.signal = controller.signal
+    return config
+  })
+
+  axiosInstance.interceptors.response.use(
+    (response) => {
+      cleanupAbortController((response.config as RequestConfigWithAbort).abortKey)
+      return response
+    },
+    (error) => {
+      cleanupAbortController(error.config ? (error.config as RequestConfigWithAbort).abortKey : undefined)
+      return Promise.reject(error)
+    }
+  )
+
   async function request<TResponse, TBody = unknown>(
     method: 'GET' | 'POST' | 'PUT' | 'DELETE',
     path: string,
@@ -63,33 +83,15 @@ function createApiClient(baseURL: string | undefined = defaultBaseUrl): ApiClien
   ): Promise<TResponse> {
     const { body, query, abortKey, ...restOptions } = options
 
-    axiosInstance.interceptors.request.use((config: InternalAxiosRequestConfig) => {
-      if (!abortKey) return config
-
-      const controller = abortManager.set(abortKey)
-      config.signal = controller.signal
-      return config
-    })
-
-    axiosInstance.interceptors.response.use(
-      (response) => {
-        cleanupAbortController(abortKey)
-        return response
-      },
-      (error) => {
-        cleanupAbortController(abortKey)
-        return Promise.reject(error)
-      }
-    )
-
     try {
       const response = await axiosInstance.request<TResponse, { data: TResponse }, TBody>({
         method,
         url: normalizePath(path),
         data: body,
         params: compactQuery(query),
+        abortKey,
         ...restOptions
-      })
+      } as AxiosRequestConfig<TBody> & { abortKey?: string })
 
       return response.data
     } catch (error) {

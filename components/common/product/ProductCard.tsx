@@ -20,6 +20,8 @@ type ProductCardProps = {
   product: ProductCardData
 }
 
+const DEFAULT_PREFETCH_TRIGGERS: Array<'hover' | 'focus' | 'touch'> = ['hover']
+
 type LinkProductCardProps = {
   product: ProductCardData
   href?: React.ComponentProps<typeof Link>['href']
@@ -83,7 +85,7 @@ export function LinkProductCard({
   ariaLabel,
   linkProps,
   prefetchMode = 'interaction',
-  prefetchTriggers = ['hover'],
+  prefetchTriggers = DEFAULT_PREFETCH_TRIGGERS,
   prefetchDelay = 0
 }: LinkProductCardProps) {
   const [isPrefetchEnabled, setIsPrefetchEnabled] = React.useState(prefetchMode === 'viewport')
@@ -99,7 +101,7 @@ export function LinkProductCard({
     }
 
     setIsPrefetchEnabled(false)
-  }, [prefetchMode, href])
+  }, [prefetchMode])
 
   React.useEffect(() => {
     return () => {

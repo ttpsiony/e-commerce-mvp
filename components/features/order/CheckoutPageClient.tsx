@@ -92,12 +92,20 @@ export default function CheckoutPage() {
 
     try {
       const data = await createOrder(items, getValues())
-      sessionStorage.setItem(ORDER_COMPLETE_EMAIL_STORAGE_KEY, getValues('email'))
+      try {
+        sessionStorage.setItem(ORDER_COMPLETE_EMAIL_STORAGE_KEY, getValues('email'))
+      } catch {
+        // storage unavailable (e.g. incognito mode)
+      }
 
       clearCart()
       clearInfo()
-      localStorage.removeItem(CART_STORAGE_KEY)
-      localStorage.removeItem(CHECKOUT_INFO_STORAGE_KEY)
+      try {
+        localStorage.removeItem(CART_STORAGE_KEY)
+        localStorage.removeItem(CHECKOUT_INFO_STORAGE_KEY)
+      } catch {
+        // storage unavailable (e.g. incognito mode)
+      }
       router.replace(`/order/complete?orderNo=${encodeURIComponent(data.orderNumber)}`)
     } catch (error) {
       if (error instanceof OrderApiError && error.status === 409) {
