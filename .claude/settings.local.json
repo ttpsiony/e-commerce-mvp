@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(git -C /Users/william/VScode/e-commerce status)",
-      "Bash(git -C /Users/william/VScode/e-commerce diff --staged)"
-    ]
-  }
-}
