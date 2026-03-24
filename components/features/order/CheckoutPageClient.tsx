@@ -2,7 +2,7 @@
 
 import dynamic from 'next/dynamic'
 import Link from 'next/link'
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { useForm } from 'react-hook-form'
 import { createOrder, OrderApiError, validateCart } from '@/components/features/order/api'
@@ -25,7 +25,7 @@ export default function CheckoutPage() {
   const router = useRouter()
   const { items, totalPrice, clearCart } = useCart()
   const { email, name, phoneNumber, address, paymentMethod, hasHydrated, setInfo, clearInfo } = useCheckoutInfo()
-  const { control, getValues, handleSubmit, register, trigger } = useForm<CheckoutInfo>({
+  const { control, getValues, handleSubmit, register, trigger, watch } = useForm<CheckoutInfo>({
     defaultValues: {
       email,
       name,
@@ -138,15 +138,21 @@ export default function CheckoutPage() {
   const activeValidationResult = isCartEmpty ? null : validationResult
   const activeSubmitMessage = isCartEmpty ? '' : submitMessage
 
-  const formValues = getValues()
-  const paymentLabel = paymentMethods.find((item) => item.value === formValues.paymentMethod)?.label ?? '未選擇'
-  const infoRows = [
-    { label: 'Email', value: formValues.email || '未填寫' },
-    { label: '姓名', value: formValues.name || '未填寫' },
-    { label: '聯絡電話', value: formValues.phoneNumber || '未填寫' },
-    { label: '收件地址', value: formValues.address || '未填寫' },
-    { label: '付款方式', value: paymentLabel }
-  ]
+  const formValues = watch()
+  const paymentLabel = useMemo(
+    () => paymentMethods.find((item) => item.value === formValues.paymentMethod)?.label ?? '未選擇',
+    [formValues.paymentMethod]
+  )
+  const infoRows = useMemo(
+    () => [
+      { label: 'Email', value: formValues.email || '未填寫' },
+      { label: '姓名', value: formValues.name || '未填寫' },
+      { label: '聯絡電話', value: formValues.phoneNumber || '未填寫' },
+      { label: '收件地址', value: formValues.address || '未填寫' },
+      { label: '付款方式', value: paymentLabel }
+    ],
+    [formValues.email, formValues.name, formValues.phoneNumber, formValues.address, paymentLabel]
+  )
 
   if (!hasHydrated) {
     return (

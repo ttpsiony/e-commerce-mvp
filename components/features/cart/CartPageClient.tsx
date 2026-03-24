@@ -3,15 +3,74 @@
 import * as React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import PaymentFlowLayout from '@/components/layout/PaymentFlowLayout'
 import { Button } from '@/components/ui/button'
-import { useCart } from '@/shared/hooks/useCart'
+import { useCart, type CartItem as CartItemType } from '@/shared/hooks/useCart'
 import { formatCurrency } from '@/shared/utils/currency'
+
+type CartItemProps = {
+  item: CartItemType
+  onUpdateQuantity: (id: string, quantity: number) => void
+  onRemove: (id: string) => void
+}
+
+const CartItem = React.memo(function CartItem({ item, onUpdateQuantity, onRemove }: CartItemProps) {
+  return (
+    <li className='flex gap-3 rounded-xl border border-zinc-200 bg-white p-3 sm:p-4'>
+      <div className='relative h-24 w-24 shrink-0 overflow-hidden rounded-lg bg-zinc-100 sm:h-28 sm:w-28'>
+        <Image src={item.image} alt={item.name} fill className='object-cover' sizes='112px' />
+      </div>
+
+      <div className='flex min-w-0 flex-1 flex-col gap-2'>
+        <p className='text-xs text-zinc-500'>ID: {item.id}</p>
+        <h2 className='line-clamp-2 font-semibold text-zinc-900'>{item.name}</h2>
+
+        <div className='flex flex-wrap items-center gap-2'>
+          <span className='font-bold text-zinc-900'>{formatCurrency(item.price)}</span>
+          {item.originalPrice > item.price ? (
+            <span className='text-sm text-zinc-400 line-through'>{formatCurrency(item.originalPrice)}</span>
+          ) : null}
+        </div>
+
+        <div className='mt-auto flex flex-wrap items-center gap-2'>
+          <Button
+            variant='outline'
+            size='sm'
+            onClick={() => onUpdateQuantity(item.id, item.quantity - 1)}
+            aria-label={`減少 ${item.name} 數量`}
+          >
+            -
+          </Button>
+          <span className='min-w-12 text-center text-sm text-zinc-700'>共 {item.quantity} 個</span>
+          <Button
+            variant='outline'
+            size='sm'
+            onClick={() => onUpdateQuantity(item.id, item.quantity + 1)}
+            aria-label={`增加 ${item.name} 數量`}
+          >
+            +
+          </Button>
+          <Button variant='ghost' size='sm' onClick={() => onRemove(item.id)}>
+            移除
+          </Button>
+        </div>
+      </div>
+    </li>
+  )
+})
 
 export default function CartPageClient() {
   const router = useRouter()
   const { items, updateItemQuantity, removeItem, totalPrice, totalCount } = useCart()
+
+  const handleUpdateQuantity = useCallback(
+    (id: string, quantity: number) => updateItemQuantity(id, quantity),
+    [updateItemQuantity]
+  )
+  const handleRemove = useCallback((id: string) => removeItem(id), [removeItem])
+  const handleGoToCheckout = useCallback(() => router.push('/checkout'), [router])
 
   return (
     <PaymentFlowLayout showBackButton={false}>
@@ -30,46 +89,7 @@ export default function CartPageClient() {
       ) : (
         <ul className='space-y-3'>
           {items.map((item) => (
-            <li key={item.id} className='flex gap-3 rounded-xl border border-zinc-200 bg-white p-3 sm:p-4'>
-              <div className='relative h-24 w-24 shrink-0 overflow-hidden rounded-lg bg-zinc-100 sm:h-28 sm:w-28'>
-                <Image src={item.image} alt={item.name} fill className='object-cover' sizes='112px' />
-              </div>
-
-              <div className='flex min-w-0 flex-1 flex-col gap-2'>
-                <p className='text-xs text-zinc-500'>ID: {item.id}</p>
-                <h2 className='line-clamp-2 font-semibold text-zinc-900'>{item.name}</h2>
-
-                <div className='flex flex-wrap items-center gap-2'>
-                  <span className='font-bold text-zinc-900'>{formatCurrency(item.price)}</span>
-                  {item.originalPrice > item.price ? (
-                    <span className='text-sm text-zinc-400 line-through'>{formatCurrency(item.originalPrice)}</span>
-                  ) : null}
-                </div>
-
-                <div className='mt-auto flex flex-wrap items-center gap-2'>
-                  <Button
-                    variant='outline'
-                    size='sm'
-                    onClick={() => updateItemQuantity(item.id, item.quantity - 1)}
-                    aria-label={`減少 ${item.name} 數量`}
-                  >
-                    -
-                  </Button>
-                  <span className='min-w-12 text-center text-sm text-zinc-700'>共 {item.quantity} 個</span>
-                  <Button
-                    variant='outline'
-                    size='sm'
-                    onClick={() => updateItemQuantity(item.id, item.quantity + 1)}
-                    aria-label={`增加 ${item.name} 數量`}
-                  >
-                    +
-                  </Button>
-                  <Button variant='ghost' size='sm' onClick={() => removeItem(item.id)}>
-                    移除
-                  </Button>
-                </div>
-              </div>
-            </li>
+            <CartItem key={item.id} item={item} onUpdateQuantity={handleUpdateQuantity} onRemove={handleRemove} />
           ))}
         </ul>
       )}
@@ -89,7 +109,7 @@ export default function CartPageClient() {
               className='w-full'
               disabled={totalCount === 0}
               aria-disabled={totalCount === 0}
-              onClick={() => router.push('/checkout')}
+              onClick={handleGoToCheckout}
             >
               前往購買
             </Button>

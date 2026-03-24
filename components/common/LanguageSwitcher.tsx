@@ -1,6 +1,7 @@
 'use client'
 
 import * as React from 'react'
+import { useMemo } from 'react'
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import {
@@ -27,6 +28,7 @@ export default function LanguageSwitcher({
 }: LanguageSwitcherProps) {
   const [language, setLanguage] = React.useState(defaultLanguage)
   const [hoveredLanguage, setHoveredLanguage] = React.useState<string | null>(null)
+  const currentLabel = useMemo(() => languageOptions.find((item) => item.value === language)?.label, [language])
 
   return (
     <DropdownMenu>
@@ -40,7 +42,7 @@ export default function LanguageSwitcher({
             <Image src='/language.png' alt='語系切換' width={24} height={24} />
           </button>
         ) : (
-          <Button variant='outline'>語系：{languageOptions.find((item) => item.value === language)?.label}</Button>
+          <Button variant='outline'>語系：{currentLabel}</Button>
         )}
       </DropdownMenuTrigger>
       <DropdownMenuContent align={align} className='w-40'>
