@@ -17,8 +17,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "jq -r '.tool_input.file_path // empty' | { read -r f; echo \"$f\" | grep -qE '\\.(ts|tsx)$' && cd /Users/william/VScode/e-commerce && npx tsc --noEmit 2>&1 && npm run lint 2>&1; } || true",
-            "timeout": 60,
+            "command": "bash .claude/hooks/lintAndTypeCheck.sh",
             "statusMessage": "Running type check and lint..."
           }
         ]
