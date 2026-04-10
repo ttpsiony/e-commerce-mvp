@@ -19,6 +19,11 @@
             "type": "command",
             "command": "bash .claude/hooks/lintAndTypeCheck.sh",
             "statusMessage": "Running type check and lint..."
+          },
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/currencyAndCartTest.sh",
+            "statusMessage": "Running related tests..."
           }
         ]
       }
